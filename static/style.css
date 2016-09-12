@@ -71,3 +71,13 @@ b{
 		display: inline-block;
 	}
 }
+p{
+	line-height: 1.5rem;
+}
+.triad .pure-u-1-3{
+	padding:1rem;
+	Box-sizing: Border-box
+}
+.triad h3{
+	color:rgba(0,0,0,.5);
+}
