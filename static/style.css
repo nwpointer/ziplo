@@ -28,6 +28,9 @@
 .thin{
 	font-weight: 300;
 }
+.medium{
+	font-weight: 400;
+}
 .hero h1{
 	font-size: 2.5rem;
 }
@@ -60,22 +63,25 @@ b{
 .hero p{
 	color: rgba(0,0,0,.8);
 }
-@media screen and (min-width: 48em){
-	#hero-text{
-		float:right;
-		padding:.5rem;
-	}
-}
 .logo{
 	color: #3c308d;
 	font-weight: 900;
 	font-size: 1.0rem;
 	letter-spacing: .15rem;
-	position: relative;
-    top: -.25rem;
-    font-size: 1.5rem;
+}
+@media screen and (min-width: 48em){
+	#hero-text{
+		float:right;
+		padding:.5rem;
+	}
+	.logo{
+		position: relative;
+	    top: -.125rem;
+	    font-size: 1.25rem;
+	}
 }
 @media screen and (max-width: 48em){
+
 	.mobile-hide{
 		display: none !important;
 	}
