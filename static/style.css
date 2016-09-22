@@ -44,6 +44,9 @@
 .justify-text{
 	text-align: left;
 }
+.simple-link{
+	text-decoration: none;
+}
 
 .button-colossal{
 	line-height: 2rem;
@@ -52,7 +55,6 @@
 	letter-spacing: .1rem;
 	font-size: 1rem;
 	font-weight: 300;
-	text-transform: capitalize;
 }
 small{
 	color:grey;
@@ -72,7 +74,9 @@ b{
 @media screen and (min-width: 48em){
 	#hero-text{
 		float:right;
-		padding:.5rem;
+		/*padding:.5rem;*/
+		/*background: blue;*/
+		max-width:500px;
 	}
 	.logo{
 		position: relative;
@@ -91,6 +95,10 @@ b{
 }
 p{
 	line-height: 1.5rem;
+}
+
+nav a {
+	text-transform: capitalize;
 }
 
 .demo{
@@ -150,7 +158,8 @@ p{
 }
 
 .purple{
-	background-color: #3c308d;
+	background:linear-gradient(to right, rgba(60,48,141,.1), rgba(60,48,141,.1)), url('/img/bottleSM.jpg');
+	background-size: cover;
 	color:white;
 }
 .purple p {
