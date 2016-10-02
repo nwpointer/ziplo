@@ -126,6 +126,15 @@ nav a {
 	margin-left:auto;
 	margin-right:auto;
 }
+.talkingPointGallery h3 {
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	/*text-transform: uppercase;*/
+}
+.talkingPointGallery p{
+	color: rgba(0,0,0,.8);
+}
 @media screen and (max-width: 48em){
 	.talkingPointGallery img, .talkingPointGallery h3, .talkingPointGallery p{
 		max-width: 450px;
