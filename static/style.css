@@ -132,12 +132,19 @@ nav a {
 	letter-spacing: 0.1rem;
 	/*text-transform: uppercase;*/
 }
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background: red;*/
+  height: 100%;
+}
 .talkingPointGallery p{
 	color: rgba(0,0,0,.8);
 }
 @media screen and (max-width: 48em){
 	.talkingPointGallery img, .talkingPointGallery h3, .talkingPointGallery p{
-		max-width: 450px;
+		/*max-width: 450px;*/
 		margin-left:auto;
 		margin-right:auto;
 	}
