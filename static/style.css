@@ -50,8 +50,8 @@
 
 .button-colossal{
 	line-height: 2rem;
-	padding-left: 4rem;
-	padding-right: 4rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	letter-spacing: .1rem;
 	font-size: 1rem;
 	font-weight: 300;
@@ -100,11 +100,34 @@ p{
 nav a {
 	text-transform: capitalize;
 }
-
+.iphone{
+	position: relative;
+	right:-50%;
+	width: 100%;
+	min-height: 100%;
+	/*left:50%;*/
+	/*margin-right: 50%*/
+}
+.android{
+	/*width:83%;*/
+	position: absolute;
+	top:6%;
+	height: 80%;
+	/*width: 500px;*/
+	z-index: -1;
+	transparency: 0;
+	/*left:9%;*/
+	/*height: 65.5%;*/
+	/*overflow: hidden;*/
+}
+.android img{
+	width: 100%;
+	min-height: 100%;
+}
 .demo{
 	width:83%;
 	position: absolute;
-	top:21%;
+	top:14%;
 	left:9%;
 	height: 65.5%;
 	overflow: hidden;
@@ -180,4 +203,42 @@ nav a {
 }
 .purple p {
 	font-weight: 300;
+}
+@media screen and (min-width: 48em){
+	.mc-field-group input{
+		max-width: 100%
+	}	
+}
+@media screen and (max-width: 48em){
+	.mc-field-group, .mc-field-group input{
+		width: 100%;
+	}
+	#mc-embedded-subscribe{
+		width: 100%;
+	}	
+}
+#mc_embed_signup_scroll{
+	width: 100%;
+}
+.mc-field-group{
+	display: inline-block;
+}
+.mc-field-group input{
+	
+	line-height: 2rem;
+	/*letter-spacing: .1rem;*/
+    /*font-size: 1rem;*/
+	font-weight: 300;
+}
+#mce-EMAIL{
+	border-radius: 2px;
+	border: 1px solid rgba(0,0,0,.2);
+	/*width:100%;*/
+	line-height: 2.9rem;
+	margin-bottom: 0.5rem;
+	display: inline;
+	padding:0 1rem;
+	position: relative;
+	top:-3px;
+	box-sizing: border-box;
 }
