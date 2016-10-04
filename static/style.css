@@ -253,3 +253,17 @@ nav a {
 	border-radius: 4px;
 	box-sizing: border-box;
 }
+.footer-social{
+	margin: auto;
+    display: block;
+    width: 150px;
+    margin-bottom: 0.5rem;
+}
+.footer-social span{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+.footer-social span:hover{
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+	filter: grayscale(0%);
+}
