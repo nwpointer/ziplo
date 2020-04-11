@@ -1,11 +1,7 @@
-finish framer prototype
+# Ziplo landing page
 
-apply new copy
+Simple startup landing page I built for a friend.
 
-add illustrations
-
-review landing pages for completeness
-
-figure out email/fb signups strategy
-
-build functional prototype
+features:
+- animated app prototype built in framer
+- user sign up form (now disabled)
